@@ -7,12 +7,12 @@ from gtts import gTTS
 
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 
 
-@app.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@app.on_message(filters.command(["chatgpt","ai","ask","baby"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(app :app, message):
     
     try:
