@@ -13,7 +13,7 @@ motor==3.0.0
 pillow==9.5.0
 psutil
 search_engine_parser
-py-tgcalls==0.9.7
+py-tgcalls==1.0.8
 pykeyboard
 pyrogram==2.0.106
 python-dotenv
